@@ -1,0 +1,57 @@
+.blueFont {
+  font-family: Calibri, sans-serif;
+  color: #0099ff;
+}
+
+.pinkBG {
+    background-color: #ffb3cc;
+}
+
+h1 {
+  font-size: 96px !important;
+}
+
+h2 {
+  font-size: 72px !important;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+.spaceultrabig{
+    height: 1200px;
+}
+
+.spacebig{
+    height: 400px;
+}
+
+.spacemid{
+    height: 200px;
+}
+
+.spacesmall{
+    height: 100px;
+}
+
+.container { 
+	display: flex; 
+} 
+ 
+.div1, .div2 { 
+	width: 300px; 
+} 
+ 
+.div-remaining { 
+	flex: 1; 
+} 
