@@ -3,8 +3,21 @@
   color: #0099ff;
 }
 
+.yellowFont {
+  font-family: Calibri, sans-serif;
+  color: #fbff00;
+}
+
 .pinkBG {
     background-color: #ffb3cc;
+}
+
+.blueBG {
+    background-color: #0099ff;
+}
+
+.whiteBG {
+    background-color: #ffffff;
 }
 
 h1 {
@@ -13,6 +26,10 @@ h1 {
 
 h2 {
   font-size: 72px !important;
+}
+
+h3 {
+  font-size: 48px !important;
 }
 
 .fill {
@@ -44,6 +61,10 @@ h2 {
     height: 100px;
 }
 
+.spacemidplus{
+    height: 300px;
+}
+
 .container { 
 	display: flex; 
 } 
@@ -54,4 +75,12 @@ h2 {
  
 .div-remaining { 
 	flex: 1; 
-} 
+}
+
+.gradientToBlue{
+    background: linear-gradient(#ffb3cc, #0099ff);
+}
+
+.gradientTowhite{
+    background: linear-gradient(#0099ff, #ffffff);
+}
