@@ -8,6 +8,11 @@
   color: #fbff00;
 }
 
+.greenFont {
+  font-family: Calibri, sans-serif;
+  color: #00ff00;
+}
+
 .pinkBG {
     background-color: #ffb3cc;
 }
