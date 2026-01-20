@@ -1,15 +1,12 @@
 .blueFont {
-  font-family: Calibri, sans-serif;
   color: #0099ff;
 }
 
 .yellowFont {
-  font-family: Calibri, sans-serif;
   color: #fbff00;
 }
 
 .greenFont {
-  font-family: Calibri, sans-serif;
   color: #00ff00;
 }
 
@@ -150,4 +147,16 @@ h4 {
 
 .gradientTowhite{
     background: linear-gradient(#0099ff, #ffffff);
+}
+
+
+@font-face {
+  font-family: "FiraSans";
+  src: url('fonts/BurbankBigCondensedFont.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: "FiraSans" !important;
 }
